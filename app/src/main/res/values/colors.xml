@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="bg">#fff7f7f7</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="red">#ffff0000</color>
+
+    <color name="blue">#ff007aff</color>
+    <color name="press_blue">#ff0066d6</color>
+
+    <color name="black">#ff000000</color>
+    <color name="half_black">#50000000</color>
+    <color name="press_black">#ffc8c8c8</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="line_color">#ffededed</color>
+
+    <color name="green">#ff06cc66</color>
+    <color name="press_green">#ff07ab56</color>
+
+    <color name="gray">#ffcccccc</color>
+    <color name="pink">#ffff7b7b</color>
+    <color name="del_red">#ffdd524d</color>
+
+    <color name="font_black">#ff3d3d3d</color>
+    <color name="font_gray">#ff878787</color>
+
+    <color name="button_red">#fffa4f67</color>
+    <color name="press_button_red">#fff04d62</color>
+
+    <color name="home_gray">#ff6e6e6e</color>
+
+    <color name="yellow_bg">#fffff4eb</color>
+    <color name="font_yellow">#ffff7200</color>
+
+    <color name="pink_bg">#ffffedf0</color>
+    <color name="font_red">#fffa4f67</color>
+
+    <color name="orange">#fffe7200</color>
+    <color name="deep_yellow">#fff8c446</color>
+
+    <color name="star_yellow">#ffffcc00</color>
+
+    <color name="gray_bg">#ffd9d9d9</color>
+
+    <color name="disable_color">#ffe5e5e5</color>
+</resources>

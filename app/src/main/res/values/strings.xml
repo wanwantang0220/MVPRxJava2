@@ -1,0 +1,496 @@
+<resources>
+
+    <string name="app_name">乐享耘林</string>
+
+    <string name="back">返回</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="complete">完成</string>
+    <string name="call_fail">此设备没有电话功能</string>
+    <string name="crash">很抱歉，程序出现异常，即将退出</string>
+    <string name="exit">再按一次退出程序</string>
+    <string name="permission_tips">当前应用缺少必要权限，暂时无法使用，请单击【确定】按钮前往设置中心进行权限授权。</string>
+    <string name="save">保存</string>
+    <string name="edit_success">修改成功</string>
+    <string name="get_code">获取验证码</string>
+    <string name="year">年</string>
+    <string name="month">%02d月</string>
+    <string name="day">%02d日</string>
+    <string name="hour">%02d时</string>
+    <string name="minute">%02d分</string>
+    <string name="second">秒</string>
+    <string name="no_more">没有更多了</string>
+    <string name="relogin">登录已过期，请重新登录</string>
+
+    <string name="pay_success">支付成功</string>
+    <string name="pay_cancel">支付取消</string>
+    <string name="pay_fail">支付失败</string>
+
+    <string name="storage_error">存储设备未挂载</string>
+
+    <string name="update">版本过低，请更新至最新版本</string>
+
+    <!-- 错误信息 -->
+    <string name="net_error">网络异常，请稍候再试</string>
+    <string name="system_fail">系统忙，请稍候再试</string>
+    <string name="loading_fail">加载失败，请稍候再试</string>
+    <string name="no_data">暂无数据</string>
+    <string name="retry">刷新</string>
+
+    <!-- 状态进行中 -->
+    <string name="loading">加载中&#8230;</string>
+
+    <!-- 建设中 -->
+    <string name="comming">正在建设中，敬请期待</string>
+
+    <!-- 登录 -->
+    <string name="login_title">@string/app_name</string>
+    <string name="login_account_hint">手机号</string>
+    <string name="login_password_hint">密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_forget">忘记密码？</string>
+    <string name="login_register">注册</string>
+    <string name="login_account_null">手机号不能为空</string>
+    <string name="login_account_error">手机号格式不正确</string>
+    <string name="login_password_null">密码不能为空</string>
+    <string name="login_success">登录成功</string>
+
+    <!-- 注册 -->
+    <string name="register_title">注册</string>
+    <string name="register_code">获取验证码</string>
+    <string name="register_register">马上加入，乐享耘林！</string>
+    <string name="register_account_hint">手机号</string>
+    <string name="register_code_hint">验证码</string>
+    <string name="register_password_hint">请输入6&#8211;12位数字或字母的密码</string>
+    <string name="register_repassword_hint">确认密码</string>
+    <string name="register_account_null">手机号不能为空</string>
+    <string name="register_account_error">手机号格式不正确</string>
+    <string name="register_code_null">验证码不能为空</string>
+    <string name="register_password_null">密码不能为空</string>
+    <string name="register_password_error">密码格式不正确</string>
+    <string name="register_repassword_error">两次密码不一致，请重新输入</string>
+    <string name="register_code_tips">验证码已发送</string>
+    <string name="register_success">注册成功</string>
+
+    <!-- 用户协议 -->
+    <string name="user_agreement_title">用户协议</string>
+
+    <!-- 忘记密码 -->
+    <string name="forget_password_title">忘记密码</string>
+    <string name="forget_password_code">获取验证码</string>
+    <string name="forget_password_forget">提交</string>
+    <string name="forget_password_account_hint">手机号</string>
+    <string name="forget_password_code_hint">验证码</string>
+    <string name="forget_password_password_hint">请输入6&#8211;12位数字或字母的新密码</string>
+    <string name="forget_password_repassword_hint">确认新密码</string>
+    <string name="forget_password_account_null">手机号不能为空</string>
+    <string name="forget_password_account_error">手机号格式不正确</string>
+    <string name="forget_password_code_null">验证码不能为空</string>
+    <string name="forget_password_password_null">新密码不能为空</string>
+    <string name="forget_password_password_error">新密码格式不正确</string>
+    <string name="forget_password_repassword_error">两次密码不一致，请重新输入</string>
+    <string name="forget_password_code_tips">验证码已发送</string>
+    <string name="forget_password_success">密码修改成功</string>
+
+    <!-- 底部菜单 -->
+    <string name="main_home">首页</string>
+    <string name="main_service">服务</string>
+    <string name="main_me">我的</string>
+
+    <!-- 首页 -->
+    <string name="main_home_title">乐享耘林</string>
+    <string name="main_home_remind">提醒</string>
+    <string name="main_home_activity">活动</string>
+    <string name="main_home_life">生活</string>
+    <string name="main_home_article">资讯</string>
+    <string name="main_home_property">物业</string>
+    <string name="main_home_shop">购物</string>
+    <string name="main_home_more">更多</string>
+    <string name="main_home_hot_service">热门服务</string>
+    <string name="main_home_activity_list">社区活动</string>
+    <string name="main_home_activity_more">更多</string>
+    <string name="main_home_article_list">社区资讯</string>
+    <string name="main_home_article_more">更多</string>
+    <string name="main_home_no_remind">暂无提醒</string>
+    <string name="main_home_house_keeper">管家</string>
+
+    <!-- 切换区域 -->
+    <string name="community_list_title">切换区域</string>
+
+    <!-- 活动列表 -->
+    <string name="activity_list_title">活动列表</string>
+
+    <string name="activity_list_status_unstart">报名中</string>
+    <string name="activity_list_status_full">已满额</string>
+    <string name="activity_list_status_sign_end">已截止</string>
+    <string name="activity_list_status_end">已结束</string>
+    <string name="activity_list_status_start">报名中</string>
+
+    <!-- 活动详情 -->
+    <string name="activity_details_title">活动详情</string>
+    <string name="activity_details_begin_time">开始时间：</string>
+    <string name="activity_details_end_time">结束时间：</string>
+    <string name="activity_details_sign_end_time">报名截止：</string>
+    <string name="activity_details_addr">活动地点：</string>
+    <string name="activity_details_max_num">活动名额：</string>
+    <string name="activity_details_price">费用单价：</string>
+    <string name="activity_details_manager_name">活动主管：</string>
+    <string name="activity_details_contact_number">联系电话：</string>
+    <string name="activity_details_sign_num">报名人数：</string>
+    <string name="activity_details_sign_all">查看</string>
+    <string name="activity_details_sign">马上报名</string>
+    <string name="activity_details_sign_unit">%s人</string>
+    <string name="activity_details_price_unit">%s元</string>
+
+    <string name="activity_details_status_unstart">马上报名</string>
+    <string name="activity_details_status_full">名额已满</string>
+    <string name="activity_details_status_sign_end">报名已截止</string>
+    <string name="activity_details_status_end">活动已结束</string>
+    <string name="activity_details_status_start">马上报名</string>
+
+    <!-- 报名用户 -->
+    <string name="sign_list_title">报名用户</string>
+
+    <!-- 报名详情 -->
+    <string name="activity_sign_title">报名详情</string>
+    <string name="activity_sign_activity_info">活动信息</string>
+    <string name="activity_sign_sign_info">报名信息</string>
+    <string name="activity_sign_sign_add">增加报名</string>
+    <string name="activity_sign_sign">提交报名</string>
+    <string name="activity_sign_sign_success">报名成功</string>
+
+    <string name="activity_sign_sign_item_num">人员%s</string>
+    <string name="activity_sign_sign_item_name">姓名</string>
+    <string name="activity_sign_sign_item_mobile">手机</string>
+    <string name="activity_sign_sign_item_name_hint">请输入姓名</string>
+    <string name="activity_sign_sign_item_mobile_hint">请输入手机号</string>
+    <string name="activity_sign_sign_item_name_null">人员%s的姓名不能为空</string>
+    <string name="activity_sign_sign_item_mobile_null">人员%s的手机号不能为空</string>
+    <string name="activity_sign_sign_item_mobile_error">人员%s的手机号格式不正确</string>
+
+    <!-- 资讯列表 -->
+    <string name="article_list_title">资讯列表</string>
+
+    <!-- 资讯详情 -->
+    <string name="article_details_title">资讯详情</string>
+
+    <!-- 联系管家 -->
+    <string name="house_keeper_details_title">联系管家</string>
+    <string name="house_keeper_details_tel">呼叫</string>
+    <string name="house_keeper_details_tel_tips">拨打电话：%s</string>
+    <string name="house_keeper_details_list">服务团队</string>
+
+    <!-- 服务团队 -->
+    <string name="house_keeper_list_title">服务团队</string>
+
+    <!-- 服务分类 -->
+    <string name="service_category_title">生活</string>
+    <string name="service_category_no_data">暂无数据</string>
+    <string name="service_category_order_manager">订单管理</string>
+
+    <!-- 服务列表 -->
+    <string name="service_list_no_data">暂无数据</string>
+    <string name="service_list_price_value">¥%s</string>
+    <string name="service_list_unit_value">/%s</string>
+    <string name="service_list_unit_earnest">定金</string>
+    <string name="service_list_free"></string>
+
+    <!-- 服务详情 -->
+    <string name="service_details_title">服务详情</string>
+    <string name="service_details_order">去下单</string>
+
+    <!-- 服务下单 -->
+    <string name="service_order_title">确认订单</string>
+    <string name="service_order_content">服务内容小项</string>
+    <string name="service_order_attention">服务注意事项</string>
+    <string name="service_order_price">服务单价</string>
+    <string name="service_order_earnest">服务定金</string>
+    <string name="service_order_resident_price">业主尊享</string>
+    <string name="service_order_square">服务面积</string>
+    <string name="service_order_time">次数</string>
+    <string name="service_order_count">服务数量</string>
+    <string name="service_order_service_addr">服务地址</string>
+    <string name="service_order_service_time">服务时间</string>
+    <string name="service_order_remark">备注</string>
+    <string name="service_order_price_value">¥%s</string>
+    <string name="service_order_unit_value">/%s</string>
+    <string name="service_order_unit_earnest" />
+    <string name="service_order_area_hint">请输入面积</string>
+    <string name="service_order_time_hint">请输入次数</string>
+    <string name="service_order_count_hint">请输入数量</string>
+    <string name="service_order_service_addr_hint">选择服务地址</string>
+    <string name="service_order_service_time_hint">选择服务时间</string>
+    <string name="service_order_remark_hint">请输入备注</string>
+    <string name="service_order_order_price">需支付：</string>
+    <string name="service_order_scale_price">(%s折)</string>
+    <string name="service_order_order">提交订单</string>
+    <string name="service_order_count_null">服务数量不能为空</string>
+    <string name="service_order_service_addr_null">请选择服务地址</string>
+    <string name="service_order_service_time_null">请选择服务时间</string>
+    <string name="service_order_service_time_error">服务时间已过期，请重新选择</string>
+    <string name="service_order_null">暂无</string>
+
+    <!-- 下单服务地址 -->
+    <string name="order_service_addr_title">服务地址</string>
+    <string name="order_service_addr_default_home">默认房屋</string>
+    <string name="order_service_addr_default_addr">默认地址</string>
+    <string name="order_service_addr_inrange">不在服务范围内</string>
+    <string name="order_service_addr_add">新增服务地址</string>
+    <string name="order_service_addr_error">不在服务范围内</string>
+
+    <!-- 服务支付 -->
+    <string name="serve_pay_title">订单支付</string>
+    <string name="serve_pay_order_info">订单信息</string>
+    <string name="serve_pay_service_time">服务时间</string>
+    <string name="serve_pay_service_name">服务名称</string>
+    <string name="serve_pay_service_price">订单金额</string>
+    <string name="serve_pay_time_tips">请在00分00秒内完成支付，否则订单将被自动取消</string>
+    <string name="serve_pay_timer">请在%1$s分%2$s秒内完成支付，否则订单将被自动取消</string>
+    <string name="serve_pay_method">支付方式</string>
+    <string name="serve_pay_method_alipay">支付宝</string>
+    <string name="serve_pay_method_wxpay">微信</string>
+    <string name="serve_pay_price">实付：</string>
+    <string name="serve_pay_price_value">¥%s</string>
+    <string name="serve_pay_confirm">确认支付</string>
+    <string name="serve_pay_null">请选择付款方式</string>
+    <string name="serve_pay_not_installed_alipay">您的手机没有安装支付宝</string>
+    <string name="serve_pay_not_installed_wx">您的手机没有安装微信</string>
+    <string name="serve_pay_time_out">支付超时，订单已取消</string>
+
+    <!-- 支付结果 -->
+    <string name="serve_pay_result_title">支付结果</string>
+    <string name="serve_pay_result_success">支付成功</string>
+    <string name="serve_pay_result_fail">支付失败</string>
+    <string name="serve_pay_result_cancel">支付取消</string>
+    <string name="serve_pay_result_success_tips"><![CDATA[您已成功支付订单<br/>您可以在[<font color="#fa4f67">我的订单</font>]中查看订单状态]]></string>
+    <string name="serve_pay_result_fail_tips"><![CDATA[您未成功支付订单<br/>您可以在[<font color="#fa4f67">我的订单</font>]中查看订单状态]]></string>
+    <string name="serve_pay_result_cancel_tips"><![CDATA[您已取消支付订单<br/>您可以在[<font color="#fa4f67">我的订单</font>]中查看订单状态]]></string>
+
+    <!-- 订单管理 -->
+    <string name="order_list_title">我的订单</string>
+    <string name="order_list_search_type_all">全部</string>
+    <string name="order_list_search_type_unpaid">待付款</string>
+    <string name="order_list_search_type_doing">进行中</string>
+    <string name="order_list_search_type_complete">已完成</string>
+
+    <string name="order_list_order_earnest_state_unpaid">待付款</string>
+    <string name="order_list_order_earnest_state_pay">待派单</string>
+    <string name="order_list_order_earnest_state_refund">已退款</string>
+    <string name="order_list_order_earnest_state_cancel">已取消</string>
+    <string name="order_list_order_earnest_state_distribution">已派单</string>
+    <string name="order_list_order_earnest_state_sign">进行中</string>
+    <string name="order_list_order_earnest_state_consult_unpaid">待付款</string>
+    <string name="order_list_order_earnest_state_consult_pay">已付款</string>
+    <string name="order_list_order_earnest_state_evaluate">待评价</string>
+    <string name="order_list_order_earnest_state_complete">已完成</string>
+    <string name="order_list_order_earnest_state_consult_cancel">已取消</string>
+
+    <string name="order_list_order_state_unpaid">待付款</string>
+    <string name="order_list_order_state_pay">待派单</string>
+    <string name="order_list_order_state_refund">已退款</string>
+    <string name="order_list_order_state_distribution">已派单</string>
+    <string name="order_list_order_state_sign">进行中</string>
+    <string name="order_list_order_state_evaluate">待评价</string>
+    <string name="order_list_order_state_complete">已完成</string>
+    <string name="order_list_order_state_cancel">已取消</string>
+
+    <string name="order_list_order_time">订单时间：</string>
+    <string name="order_list_common">普通订单</string>
+    <string name="order_list_earnest">定金订单</string>
+    <string name="order_list_service_time">服务时间：</string>
+    <string name="order_list_common_price">订单金额：</string>
+    <string name="order_list_earnest_price">定金金额：</string>
+    <string name="order_list_price_value">¥%s</string>
+
+    <!-- 订单详情 -->
+    <string name="order_details_title">订单详情</string>
+    <string name="order_details_order_info">订单信息</string>
+    <string name="order_details_order_no">订单编号</string>
+    <string name="order_details_order_status">订单状态</string>
+    <string name="order_details_order_time">下单时间</string>
+    <string name="order_details_order_price">订单金额</string>
+    <string name="order_details_info">服务信息</string>
+    <string name="order_details_name">服务名称</string>
+    <string name="order_details_price">服务单价</string>
+    <string name="order_details_resident_price">业主尊享</string>
+    <string name="order_details_earnest">服务定金</string>
+    <string name="order_details_square">服务面积</string>
+    <string name="order_details_time">次数</string>
+    <string name="order_details_count">服务数量</string>
+    <string name="order_details_service_addr">服务地址</string>
+    <string name="order_details_service_time">服务时间</string>
+    <string name="order_details_common_price">订单金额</string>
+    <string name="order_details_earnest_price">定金金额</string>
+    <string name="order_details_remark_tips">备注</string>
+    <string name="order_details_evaluate_tips">服务评价</string>
+    <string name="order_details_evaluate_label">您的评价：</string>
+    <string name="order_details_price_value">¥%s</string>
+    <string name="order_details_unit_value">/%s</string>
+    <string name="order_details_unit_earnest" />
+    <string name="order_details_area_hint">请输入面积</string>
+    <string name="order_details_time_hint">请输入次数</string>
+    <string name="order_details_count_hint">请输入数量</string>
+    <string name="order_details_service_addr_hint">请选择服务地址</string>
+    <string name="order_details_service_time_hint">请选择服务时间</string>
+    <string name="order_details_remark_hint">请输入备注</string>
+    <string name="order_details_pay_time_tips">请在00分00秒内完成支付</string>
+    <string name="order_details_pay_timer">请在%1$s分%2$s秒内完成支付</string>
+    <string name="order_details_cancel">取消订单</string>
+    <string name="order_details_order">去支付</string>
+    <string name="order_details_refund">退款</string>
+    <string name="order_details_evaluate">评价</string>
+    <string name="order_details_null">暂无</string>
+    <string name="order_details_pay_time_out">支付超时，订单已取消</string>
+    <string name="order_details_cancel_order_tips">确定要取消订单吗？</string>
+    <string name="order_details_refund_order_tips">确定要退款吗？</string>
+
+    <string name="order_details_evaluate_one">服务很差</string>
+    <string name="order_details_evaluate_two">服务差</string>
+    <string name="order_details_evaluate_three">服务一般</string>
+    <string name="order_details_evaluate_four">服务好</string>
+    <string name="order_details_evaluate_five">服务很好</string>
+
+    <string name="order_details_cancel_success">取消成功</string>
+    <string name="order_details_refund_success">退款成功</string>
+    <string name="order_details_evaluate_success">评价成功</string>
+
+    <!-- 服务 -->
+    <string name="service_title">服务</string>
+
+    <!-- 我的 -->
+    <string name="me_title">我的</string>
+    <string name="me_house">我的房屋</string>
+    <string name="me_order">我的订单</string>
+    <string name="me_activity">我的活动</string>
+    <string name="me_service_addr">服务地址</string>
+    <string name="me_feedback">使用反馈</string>
+    <string name="me_about">关于我们</string>
+
+    <!-- 我的房屋 -->
+    <string name="my_house_title">我的房屋</string>
+    <string name="my_house_tips">房屋信息</string>
+    <string name="my_house_all">查看所有房屋</string>
+    <string name="my_house_resident_tips">住户信息</string>
+
+    <!-- 所有房屋 -->
+    <string name="all_house_title">所有房屋</string>
+    <string name="all_house_default">当前房屋</string>
+    <string name="all_house_user_count">%s人</string>
+    <string name="all_house_switch_default">确定要切换到此房屋吗？</string>
+
+    <!-- 个人资料 -->
+    <string name="my_info_title">个人资料</string>
+    <string name="my_info_head">头像</string>
+    <string name="my_info_name">姓名</string>
+    <string name="my_info_sex">性别</string>
+    <string name="my_info_addr">住址</string>
+    <string name="my_info_service_addr">服务地址</string>
+    <string name="my_info_mobile">手机号</string>
+    <string name="my_info_modify_password">修改密码</string>
+    <string name="my_info_logout">退出登录</string>
+    <string name="my_info_logout_tips">确定要退出登录吗？</string>
+    <string name="my_info_take_photo">拍照</string>
+    <string name="my_info_photos">相册</string>
+
+    <!-- 修改姓名 -->
+    <string name="modify_name_title">修改姓名</string>
+    <string name="modify_name_hint">请输入姓名</string>
+    <string name="modify_name_modify">提交</string>
+    <string name="modify_name_null">姓名不能为空</string>
+
+    <!-- 修改性别 -->
+    <string name="modify_sex_title">修改性别</string>
+    <string name="modify_sex_male">男</string>
+    <string name="modify_sex_female">女</string>
+    <string name="modify_sex_modify">提交</string>
+    <string name="modify_sex_null">请选择性别</string>
+
+    <!-- 修改住址 -->
+    <string name="modify_addr_title">修改住址</string>
+    <string name="modify_addr_city">小区</string>
+    <string name="modify_addr_address">详细地址</string>
+    <string name="modify_addr_city_hint">选择小区</string>
+    <string name="modify_addr_address_hint">详细地址：如楼栋号、门牌号等</string>
+    <string name="modify_addr_modify">提交</string>
+    <string name="modify_addr_city_null">请选择小区</string>
+    <string name="modify_addr_address_null">详细地址不能为空</string>
+
+    <!-- 服务地址 -->
+    <string name="service_addr_title">服务地址</string>
+    <string name="service_addr_default">默认</string>
+    <string name="service_addr_add">新增服务地址</string>
+
+    <!-- 新增服务地址 -->
+    <string name="add_service_addr_title">新增服务地址</string>
+    <string name="add_service_addr_name_hint">联系人</string>
+    <string name="add_service_addr_moblie_hint">手机号</string>
+    <string name="add_service_addr_city_hint">选择小区</string>
+    <string name="add_service_addr_address_hint">详细地址：如楼栋号、门牌号等</string>
+    <string name="add_service_addr_default">设为默认</string>
+    <string name="add_service_addr_add">提交</string>
+    <string name="add_service_addr_name_null">联系人不能为空</string>
+    <string name="add_service_addr_moblie_null">手机号不能为空</string>
+    <string name="add_service_addr_moblie_error">手机号格式不正确</string>
+    <string name="add_service_addr_city_null">请选择小区</string>
+    <string name="add_service_addr_address_null">详细地址不能为空</string>
+
+    <!-- 修改服务地址 -->
+    <string name="modify_service_addr_title">修改服务地址</string>
+    <string name="modify_service_addr_name_hint">联系人</string>
+    <string name="modify_service_addr_moblie_hint">手机号</string>
+    <string name="modify_service_addr_city_hint">选择小区</string>
+    <string name="modify_service_addr_address_hint">详细地址：如楼栋号、门牌号等</string>
+    <string name="modify_service_addr_default">设为默认</string>
+    <string name="modify_service_addr_modify">提交</string>
+    <string name="modify_service_addr_name_null">联系人不能为空</string>
+    <string name="modify_service_addr_moblie_null">手机号不能为空</string>
+    <string name="modify_service_addr_moblie_error">手机号格式不正确</string>
+    <string name="modify_service_addr_city_null">请选择小区</string>
+    <string name="modify_service_addr_address_null">详细地址不能为空</string>
+    <string name="modify_service_addr_delete_tips">确定要删除吗？</string>
+
+    <!-- 选择小区 -->
+    <string name="city_list_title">选择小区</string>
+
+    <!-- 修改密码 -->
+    <string name="modify_password_title">修改密码</string>
+    <string name="modify_password_modify">提交</string>
+    <string name="modify_password_old_password_hint">请输入原密码</string>
+    <string name="modify_password_new_password_hint">请输入6&#8211;12位数字或字母的新密码</string>
+    <string name="modify_password_repassword_hint">确认新密码</string>
+    <string name="modify_password_old_password_null">原密码不能为空</string>
+    <string name="modify_password_new_password_null">新密码不能为空</string>
+    <string name="modify_password_new_password_error">新密码格式不正确</string>
+    <string name="modify_password_repassword_error">两次密码不一致，请重新输入</string>
+    <string name="modify_password_success">密码修改成功</string>
+
+    <!-- 我的活动 -->
+    <string name="my_activity_title">我的活动</string>
+
+    <!-- 我的活动报名详情 -->
+    <string name="my_activity_details_title">报名详情</string>
+    <string name="my_activity_details_activity_info">活动信息</string>
+    <string name="my_activity_details_sign_info">报名信息</string>
+    <string name="my_activity_details_cancel_sign">取消报名</string>
+    <string name="my_activity_details_cancel_sign_tips">确定要取消报名吗？</string>
+    <string name="my_activity_details_cancel_sign_success">取消报名成功</string>
+
+    <!-- 使用反馈-->
+    <string name="feedback_title">使用反馈</string>
+    <string name="feedback_feedback_hint">使用过程中如有意见或建议，请填写在此告诉我们。</string>
+    <string name="feedback_pic_hint">上传图片</string>
+    <string name="feedback_submit">提交</string>
+    <string name="feedback_feedback_null">反馈内容不能为空</string>
+    <string name="feedback_submit_success">提交成功</string>
+
+    <!-- 关于我们-->
+    <string name="about_title">关于我们</string>
+    <string name="about_version">版本更新</string>
+    <string name="about_version_value">V%s</string>
+    <string name="about_tel">联系方式</string>
+    <string name="about_tel_value">0510&#8211;85386217</string>
+    <string name="about_rights">©2019 无锡市耘林养老信息技术有限公司</string>
+    <string name="about_tel_tips">拨打电话：%s</string>
+    <string name="about_version_tips">已经是最新版本</string>
+</resources>

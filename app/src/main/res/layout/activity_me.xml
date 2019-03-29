@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_common" />
+
+    <com.yunlin.xihai.user.elder.view.LoadingLayout
+        android:id="@+id/llLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                android:id="@+id/srMyInfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srlEnableLoadMore="false"
+                app:srlEnableRefresh="false">
+
+                <android.support.v4.widget.NestedScrollView
+                    android:id="@+id/nsvMyInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true"
+                    android:overScrollMode="never">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bg"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/llUserHead"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/white"
+                                android:foreground="@drawable/press_black_bg"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="14dp">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="@string/my_info_head"
+                                    android:textColor="@color/font_black"
+                                    android:textSize="16sp" />
+
+                                <android.support.v7.widget.CardView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="10dp"
+                                    app:cardBackgroundColor="@color/transparent"
+                                    app:cardCornerRadius="30dp"
+                                    app:cardElevation="0dp">
+
+                                    <ImageView
+                                        android:id="@+id/ivHeadPic"
+                                        android:layout_width="60dp"
+                                        android:layout_height="60dp"
+                                        android:scaleType="centerCrop"
+                                        android:src="@mipmap/ic_default_head" />
+
+                                </android.support.v7.widget.CardView>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@mipmap/ic_enter" />
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginEnd="14dp"
+                                android:background="@color/line_color" />
+
+                            <LinearLayout
+                                android:id="@+id/llModifyName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:foreground="@drawable/press_black_bg"
+                                android:orientation="horizontal"
+                                android:padding="14dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/my_info_name"
+                                    android:textColor="@color/font_black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/tvUserName"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="end"
+                                    android:textColor="@color/font_gray"
+                                    android:textSize="16sp"
+                                    tools:text="小张" />
+
+                                <ImageView
+                                    android:id="@+id/ivModifyName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="0dp"
+                                    android:src="@mipmap/ic_enter" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginEnd="14dp"
+                                android:background="@color/line_color" />
+
+                            <LinearLayout
+                                android:id="@+id/llModifySex"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:foreground="@drawable/press_black_bg"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="14dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/my_info_sex"
+                                    android:textColor="@color/font_black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/tvSex"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="end"
+                                    android:textColor="@color/font_gray"
+                                    android:textSize="16sp"
+                                    tools:text="男" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="0dp"
+                                    android:src="@mipmap/ic_enter" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginEnd="14dp"
+                                android:background="@color/line_color" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:foreground="@drawable/press_black_bg"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:padding="14dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/my_info_mobile"
+                                    android:textColor="@color/font_black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/tvUserPhone"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="end"
+                                    android:textColor="@color/font_gray"
+                                    android:textSize="16sp"
+                                    tools:text="18888888888" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:layout_marginStart="14dp"
+                                android:layout_marginEnd="14dp"
+                                android:background="@color/line_color" />
+
+                            <LinearLayout
+                                android:id="@+id/llModifyAddr"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:foreground="@drawable/press_black_bg"
+                                android:orientation="horizontal"
+                                android:padding="14dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/my_info_addr"
+                                    android:textColor="@color/font_black"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/tvAddr"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="0dp"
+                                    android:layout_weight="1"
+                                    android:gravity="end"
+                                    android:textColor="@color/font_gray"
+                                    android:textSize="16sp"
+                                    tools:text="A区B幢" />
+
+                                <ImageView
+                                    android:id="@+id/ivModifyAddr"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginEnd="0dp"
+                                    android:src="@mipmap/ic_enter" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llModifyPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/white"
+                            android:foreground="@drawable/press_black_bg"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/my_info_modify_password"
+                                android:textColor="@color/font_black"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llLogout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/white"
+                            android:foreground="@drawable/press_black_bg"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="@string/my_info_logout"
+                                android:textColor="@color/font_black"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v4.widget.NestedScrollView>
+            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+        </LinearLayout>
+    </com.yunlin.xihai.user.elder.view.LoadingLayout></LinearLayout>
